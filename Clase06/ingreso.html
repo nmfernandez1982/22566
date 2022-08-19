@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/estilo.css" rel="stylesheet">
+    </head>   
+
+    
+    <body>
+    
+
+    <div id="centrado">    
+        <h1>Alta de Usuario</h1>
+        <h2>Alta de Usuario</h2>
+        <h3>Alta de Usuario</h3>
+    <form action="#" method="post" >    
+        <fieldset>
+            <legend>Formulario de Ingreso</legend>
+           
+            <label for="nombre" >Nombre:</label>    
+            <input type="text" id="nombre" name="nombre" required maxlength="5" minlength="2" placeholder="Aqui Nombre"   >
+            <br>
+            <br>
+            <label for="apellido" >Apellido:</label>  
+            <input type="text" id="apellido" name="apellido" required maxlength="5" minlength="2" > 
+            <br>
+            <br>
+            <label for="pass" >Password:</label>  
+            <input type="password" id="pass" name="pass" required pattern=""  >
+            <br>
+            <br>
+            <label for="edad" >Edad:</label>
+            <input type="number" max="99" min="18" required value="25"  > 
+            <br>
+            <br>
+            <label for="sueldo" >Sueldo:</label>
+            <input type="number" max="99990" min="1800" id="" name="" disabled="true" value="78000"  > 
+            <br>
+            <br>
+            <label for="fnac" >FNAC:</label>
+            <input type="date" required name="fnac" id="fnac" >
+        </fieldset>
+
+        <fieldset>
+            <legend>Otros Datos</legend>
+                <label for="">Provincias:</label>
+                <select name="" id="">
+                    <option value="0" selected >sin datos</option>
+                    <option value="1" >Buenos Aires</option>
+                    <option value="2" >Cordoba</option>
+                    <option value="3" >Santa Fe</option>
+                </select>
+
+            <br>
+            <br>
+
+            <label for="" >Su Mascota:</label>
+            <select name="" id="" multiple >
+                <optgroup label="4 patas">
+                    <option value="1" >Perro</option>
+                    <option value="2" >Gato</option>
+                    <option value="3" >Conejo</option>
+                </optgroup>
+                <optgroup label="Aves">
+                    <option value="1" >loro</option>
+                    <option value="2" >Canario</option>
+                    <option value="3" >Aguila</option>
+                </optgroup>
+            </select>
+
+
+        </fieldset>
+        <br>
+        <br>
+        <label for="">Color: </label>
+        <input type="color" >
+        <br>
+        <br>
+        <fieldset>
+           <legend>Lenguaje</legend>
+           <label for="">PHP</label>
+           <input type="checkbox" id="" name="" value="1" >
+           <label for="" >JAVA</label>
+           <input type="checkbox" id="" name="" value="2" >
+           <label for="">Python</label>
+           <input type="checkbox" id="" name="" value="3" >
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Otros Lenguajes</legend>
+            <label for="">Ruby</label>
+            <input type="radio" name="lp"  >
+            <label for="">JavaScripts</label>
+            <input type="radio"  name="lp">
+            <label for="">.NET</label>
+            <input type="radio" name="lp" >
+        </fieldset>
+
+    <button type="submit" class="button"  >Enviar</button>
+    <input type="reset" >
+    </form>    
+    
+   
+</div>
+
+
+
+
+    </body>
+</html>
