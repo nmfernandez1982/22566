@@ -1,0 +1,54 @@
+
+.claseColorH1
+{
+color:blue;
+}
+
+#colorH1
+{
+color:green;
+}
+
+
+h1
+{
+color:red;
+text-transform: uppercase;
+}
+
+
+body
+{
+    /*background-color: lightgray;*/
+    background-image: url('../img/fondo.jpg');      
+}
+
+
+.textoP
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  font-size: 18px; 
+  word-spacing: 10px;
+  color: #D9CF34;
+  color: rgb(red, green, blue) ;
+  color: rgba(red, green, blue, alpha);   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
