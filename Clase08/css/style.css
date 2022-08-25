@@ -1,0 +1,99 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#uno,#dos,#tres
+{
+    height: 200px;
+    width: 100%;
+}
+
+
+
+
+
+#uno
+{
+background-color: blue;
+}
+
+#dos
+{
+    background-color: blueviolet;
+}
+
+#tres
+{
+    background-color: coral;
+}
+/*
+#tres:hover
+{
+    background-color: lightcoral;
+    font-size: 24px;
+}
+
+p:hover
+{
+    background-color: forestgreen;
+}
+*/
+
+/*
+div p
+{
+   color: yellow; 
+}
+
+#tres p
+{
+   color: maroon; 
+}
+
+
+section ~ p
+{
+    color: blue;
+}
+
+
+#uno > p
+{
+    color : yellow;
+}
+
+*/
+
+p:first-child
+{
+    color: blue;
+}
+
+
+a:link
+{
+    color:red;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+a:hover
+{
+    color:green;
+}
+
+a:visited
+{
+    color:yellow;
+}
+
+a:active
+{
+    color:blueviolet;
+}
+
