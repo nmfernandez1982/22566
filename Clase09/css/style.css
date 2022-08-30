@@ -1,0 +1,53 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+header,main
+{
+    background-color: lightgray;
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #999;
+}
+
+header h1
+{
+    text-align: center;    
+    font-family: 'Lobster', cursive;   
+    color:white;
+    text-shadow: 10px 10px 10px black;
+}
+
+#main
+{
+    height: 300px;
+    margin-top: 20px;
+}
+
+.fondo
+{
+    background-color: red !important ;
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.textos
+{
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+#footer
+{
+    background-color: blue;
+}
+
