@@ -1,0 +1,36 @@
+
+#cuadro1
+{
+    height: 250px;
+    width: 250px;
+    background-color: red;    
+}
+
+#cuadro2
+{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    border: 20px;
+    border-color: green;
+    border-style: solid;
+}
+
+
+#cuadro4
+{
+    box-sizing: border-box;
+    height: 250px;
+    width: 250px;
+    background-color: red;      
+    border: 20px;
+    border-style: solid;
+    border-color: green;
+    padding-top: 50px;
+}
+
+p
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
