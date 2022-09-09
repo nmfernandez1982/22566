@@ -1,0 +1,39 @@
+
+
+body{background-color: lightpink;}
+
+.ocultar
+{
+width: 100px;
+height: 100px;
+background-color: red;
+}
+
+
+
+@media screen and (min-width:100px) and (max-width:500px) 
+{
+    body
+    {
+        background-color: aqua;
+    }
+
+    div.ocultar 
+    {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width:768px) 
+{
+    body
+    {
+        background-color: green;
+    }
+
+    div.ocultar 
+    {
+        background-color: blue;
+    }
+
+}
