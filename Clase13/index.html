@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="contenedor">
+
+            <nav class="navbar navbar-expand-lg bg-light" id="nav1">
+                <div class="container-fluid">
+
+                    <a class="navbar-brand" href="#">
+                        <img src="img/LogoCac.png" alt="Logo"  height="40"  class="d-inline-block align-text-top">
+                        
+                      </a>
+
+                  
+
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          CRUDs
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Clientes</a></li>
+                          <li><a class="dropdown-item" href="#">Productos</a></li>
+                          <li><a class="dropdown-item" href="#">Usuarios</a></li>
+                        </ul>
+                      </li>
+                   
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+          
+
+              <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/foto1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Patagonia</h5>
+                      
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/foto2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Norte</h5>                      
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="img/foto3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Litoral</h5>                      
+                    </div>
+                  </div>
+                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+            <br>
+
+              <div  class="alert alert-success">
+                <h4>Jugadores</h4>
+              </div>
+
+            
+
+              <br>   
+              
+              <div class="card-group">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/Messi.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Messi</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Ver...</a>
+                      <a href="#" class="btn btn-secondary">Ver...</a>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="img/DiMaria.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">DiMaria</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Ver...</a>
+                      <a href="#" class="btn btn-secondary">Ver...</a>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="img/DePaul.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">DePaul</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Ver...</a>
+                      <a href="#" class="btn btn-secondary">Ver...</a>
+                    </div>
+                  </div>
+              </div>
+
+            <br>
+
+            <form action="#" method="post">  
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="button">Enviar</button>                
+              </div>
+            </form>  
+
+            <br>
+            <br>
+
+            <footer class="bg-light text-center text-lg-start">
+                <div class="text-center p-3" style="background-color: rgba(0,0,0,0.2);" >
+                        @copyright Codo a Codo 2022
+                        <a class="text-dark" target="_blank" href="https://www.google.com" >Google</a>
+                </div>
+            </footer>
+        </div>
+        <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    </body>
+</html>
