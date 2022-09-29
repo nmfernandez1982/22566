@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+    </head>
+    <body>
+    
+
+        <script>
+
+                //arrays
+
+                var notas=[10,8,7,2,5,10,9,4,0,1];
+                        //  0,1,2,3,4,5 ,6,7,8,9
+                
+                console.log("Array: "+notas);
+                console.log("Array: "+notas[9]);
+                console.log("Array: "+notas[2]);
+                console.log("Array: "+notas[6]);
+                console.log("Array: "+notas[10]);
+                console.log("Array: "+notas[0]);
+
+                var alumnos=["Nico","Ceci","Santy","July"];
+                           // 0       1      2       3 
+                console.log("Array: "+alumnos[3]);
+
+                var alumnos_notas=["Nico",10,"Ceci",10,true,1700.2,false,"Pedro"];
+                console.log("Array: "+alumnos_notas[2]);
+                console.log("Array: "+alumnos_notas[5]);
+
+                var calculo=notas[9]+notas[0];
+                console.log("La suma es: "+calculo);
+
+                cant=alumnos_notas.length;
+                console.log("La cantidad de elementos es:"+cant);
+
+                //Expresion simple
+                var nota=7;
+                if (nota>=7)
+                {
+                    //respuesta por true --por si es correcto
+                    console.log("La nota es mayor o igual que 7");
+                }
+                else
+                {
+                    //respuesta por false --por si es incorrecto
+                    console.log("La nota no es mayor que 7");
+                }
+
+
+                //Expresion compuesta
+                var nota=7;
+                var curso=5;
+
+                // && ---> y
+                // || ---> o
+
+
+
+                if (nota>7 && curso==5)
+                {
+                    //respuesta por true --por si es correcto
+                    console.log("La nota es mayor o igual que 7");
+                }
+                else
+                {
+                    //respuesta por false --por si es incorrecto
+                    console.log("La nota no es mayor que 7");
+                }
+
+                /*
+                A = 5  --> a la variable A le ponga el valor 5
+                A == 5 --> si el contenido de A es 5
+                A === B --> si el contenido y el tipo es igual
+                */
+
+
+                /* tabla de verdad de Y
+                V V = V
+                F V = F
+                V F= F
+                F F =F                             
+                */
+
+
+
+
+                if (nota>7 || curso==5)
+                {
+                    //respuesta por true --por si es correcto
+                    console.log("La nota es mayor o igual que 7");
+                }
+                else
+                {
+                    //respuesta por false --por si es incorrecto
+                    console.log("La nota no es mayor que 7");
+                }
+
+                /*
+                V V = V
+                F V = V
+                V F = V
+                F F = F
+                */    
+
+
+                calif=19;
+                if(calif>20)
+                {
+                    console.log("La calificacion es mayor que 20");
+                }
+                else if(calif<20)
+                {
+                    console.log("La calificacion es menor que 20");
+                }
+                else
+                {
+                    console.log("Entonces es 20");
+                }
+
+
+                //multiples consultas:
+
+                dia=10;
+                switch(dia)
+                {
+                    case 0:
+                        console.log("Domingo");
+                        break;
+                    case 1:
+                        console.log("Lunes");
+                        break;
+                    case 2:
+                        console.log("martes");
+                        break;
+                    case 3:
+                        console.log("miercoles");
+                        break;
+                    case 4:
+                        console.log("jueves");
+                        break;
+                    case 5:
+                        console.log("viernes");
+                        break;
+                    case 6:
+                        console.log("Sabado");
+                        break;
+                    default:
+                        console.log("Otro");
+                        break;
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+        </script>
+    </body>
+</html>
