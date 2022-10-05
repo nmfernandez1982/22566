@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">        
+    </head>
+    <body>
+
+        <script>
+                //while
+                console.log("While");
+                aux=10;
+                while(aux<5)
+                {
+                  //Aqui las instrucciones.
+                  console.log("Esto es un While ["+aux+"]");
+                  console.log("----------------"); 
+                  aux=aux+1; // aux++;
+                }
+
+                //do while
+                console.log("Do While");
+                do{
+                    //Aqui las instrucciones.
+                  console.log("Esto es un Do While ["+aux+"]");
+                  console.log("----------------"); 
+                  aux=aux+1; // aux++;
+
+                }while(aux<5);
+
+
+                 //FOR 
+
+                 //for(valor de inicio,valor de fin,incremento)
+                var numeros=[2,3,41,67,11,5555,778,12,56,7,23,11,2,5,3,4,5,6];
+
+
+                for(x=0;x<numeros.length;x++) 
+                {
+                   //Aqui las instrucciones.
+                  console.log("Esto es un for ["+x+"] y su valor es: "+numeros[x]);
+                  console.log("----------------");  
+                  if(numeros[x]==778)
+                  {
+                    console.log("Bingo");
+                    x=numeros.length+1;
+                  }
+                }
+
+
+                
+
+
+                
+
+
+                
+
+        </script>
+    
+    </body>
+</html>

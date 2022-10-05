@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body onload="mostrar()">
+
+
+        <script>
+
+
+            TipoError("Error de Conexion");
+
+            TipoError("Error DivCero");
+
+            TipoError("Error Fuera de Indice");
+
+            TipoError("Error Desconocido");
+
+            aux=calculo(100,120);
+            console.log("EL resultado es: "+aux);
+
+
+            
+            aux=calculo(1,4);
+            console.log("EL resultado es: "+aux);
+
+
+
+            function TipoError(TipoErrorArg)
+            {
+                console.log("El error es: "+TipoErrorArg)                
+            }
+
+            function calculo(valor1,valor2)
+            {
+                total=valor1+valor2;
+                return total;
+            }
+
+            function mostrar()
+            {
+                alert("Publicidad");
+            }
+
+
+        </script>
+    
+    </body>
+</html>
