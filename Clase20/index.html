@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    </head>
+    <body>
+
+        <script>
+            var nombres=["Nico","July","Damian","Cecilia"];
+            //metodo toString()
+            console.log("Metodo ToString")
+            var cadena=nombres.toString();
+            console.log("Texto:" +cadena);
+            console.log("---------------")
+
+            //metodo push()
+            console.log("Metodo push")
+            nombres.push("Pedro");
+            nombres.push("Juana");
+            for(i=0;i<nombres.length;i++)
+            {
+                console.log("Nombre ["+i+"] -->"+nombres[i]);
+            }
+            console.log("---------------")
+
+            //metodo pop()
+            console.log("Metodo pop")
+            nombres.pop();
+            nombres.pop();
+            for(i=0;i<nombres.length;i++)
+            {
+                console.log("Nombre ["+i+"] -->"+nombres[i]);
+            }
+            console.log("---------------")
+
+            //metodo join()
+            console.log("Metodo join")
+            texto=nombres.join("?")
+            console.log("Texto con metodo Join: "+texto);
+
+
+             //metodo concat()
+             console.log("Metodo concat")
+             var numerosPares=[0,2,4,6,8,10];
+             var numerosImpares=[1,3,5,7,9,11];
+             numeros=numerosPares.concat(numerosImpares);
+             console.log("Concatenado: "+numeros);
+             console.log("---------------")
+
+
+            var nombre="Nicolas Fernandez";
+            console.log(nombre);
+            console.log("Cantidad de Caracteres:"+nombre.length);
+
+         
+
+            var x=0
+            for(i=0;i<nombre.length;i++)
+            {
+                console.log("Letra : ["+i+"]: "+nombre[i])
+                if(nombre[i]==' ')
+                {
+                    x++;
+                }
+            }
+            console.log("Cantidad de Letras:"+(nombre.length-x))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </script>
+    
+    </body>
+</html>
