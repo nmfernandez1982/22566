@@ -1,6 +1,8 @@
 function calcular()
 {
 valor1=document.getElementById("valor1").value;
+
+
 valor2=document.getElementById("valor2").value;
 
 
@@ -13,10 +15,10 @@ result=0;
 switch(select_activa=parseInt(select_activa))
 {
     case 1:
-            result=(parseInt(valor1)+parseInt(valor2));
+           result=(parseInt(valor1)+parseInt(valor2));
            break;
     case 2:
-           result=valor1-valor2/2;
+           result=valor1-valor2;
            break;
     case 3:
            result=(valor1*valor2);
