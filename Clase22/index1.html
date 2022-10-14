@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+    </head>
+    <body>
+        <label for="nombre">Ingrese Su Apellido: </label>
+        <input id="nombre" name="nombre" type="text" onblur="cambiar();" >
+    
+
+
+        <script>
+            function cambiar()
+            {
+                    var x=document.getElementById("nombre");
+                    x.value=x.value.toUpperCase();                
+            }
+        </script>
+
+
+    </body>
+</html>
